@@ -17,7 +17,7 @@ function _wrap(s) {
     '}}).call(d)'].join('\n');
 }
 
-export default function parse(expression) {
+module.exports =  function parse(expression) {
   if (!parsedCache[expression]) {
     var func;
     /* jshint ignore:start */
