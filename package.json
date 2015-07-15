@@ -1,7 +1,7 @@
 {
-  "name": "safe-parse",
+  "name": "happy-parse",
   "version": "1.0.0",
-  "description": "a safe expression parser",
+  "description": "a safe expression parser makes you happy",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
