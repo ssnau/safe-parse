@@ -1,0 +1,15 @@
+{
+  "name": "safe-parse",
+  "version": "1.0.0",
+  "description": "a safe expression parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "safe",
+    "parser"
+  ],
+  "author": "ssnau",
+  "license": "MIT"
+}
