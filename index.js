@@ -17,7 +17,7 @@ function _wrap(s) {
     '}}).call(d)'].join('\n');
 }
 
-module.exports =  function parse(expression) {
+function parse(expression) {
   if (!parsedCache[expression]) {
     var func;
     /* jshint ignore:start */
@@ -33,6 +33,10 @@ module.exports =  function parse(expression) {
   }
   return parsedCache[expression];
 }
+parse.eval = function (context, exp) {
+  return parse(exp)(obj);
+}
 
+module.exports = parse;
 // usage:
 // parse(expression)(data)
