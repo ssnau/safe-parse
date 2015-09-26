@@ -3,7 +3,7 @@ happy parse
 
 A safe expression parse that makes you happy.
 
-```
+```javascript
 var parse  = require('happy-parse');
 
 var obj = {

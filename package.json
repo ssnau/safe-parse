@@ -8,12 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ssnau/safe-parse.git"
+    "url": "git+https://github.com/ssnau/safe-parse.git"
   },
   "keywords": [
     "safe",
     "parser"
   ],
   "author": "ssnau",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssnau/safe-parse/issues"
+  },
+  "homepage": "https://github.com/ssnau/safe-parse#readme"
 }
