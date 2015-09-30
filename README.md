@@ -3,6 +3,16 @@ happy parse
 
 A safe expression parse that makes you happy.
 
+install
+-----
+
+```
+npm install happy-parse
+```
+
+Usage
+---
+
 ```javascript
 var parse  = require('happy-parse');
 

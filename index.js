@@ -34,7 +34,7 @@ function parse(expression) {
   return parsedCache[expression];
 }
 parse.eval = function (context, exp) {
-  return parse(exp)(obj);
+  return parse(exp)(context);
 }
 
 module.exports = parse;
